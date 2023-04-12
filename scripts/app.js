@@ -52,8 +52,12 @@ const result8 = sumMore10(arr8)
 alert(result8)
 //9
 const arr9 =[1, 2, 3, 4, 5]
-arr9.reverse()
-alert(arr9)
+const reverseArr = []
+for (let i = arr9.length - 1; i>=0; i--){
+    reverseArr.push (arr9[i])
+}
+alert(reverseArr)
+
 //10
 const arr10 = [[1, 2, 3], [4, 5], [6]]
 let sum10 = 0
